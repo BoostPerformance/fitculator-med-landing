@@ -10,7 +10,7 @@ const FaQSection = () => {
             FAQ <br />더 궁금한 점이 있으신가요?
           </h2>
 
-          <p className="text-gray-12 text-1.5-700 text-gray-5 md:text-1.5-700 sm:text-1-500">
+          <p className="text-gray-1 text-1.5-700 text-gray-5 md:text-1.5-700 sm:text-1-500">
             자주 물어보신 질문들만 <br />
             모아둔 FAQ를 참고해 주세요.
           </p>
