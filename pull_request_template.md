@@ -1,6 +1,6 @@
 ## 어떤 변경인지
 
-- [ ] feat: 기능 변경, 기능 추가
+- [x] feat: 기능 변경, 기능 추가
 - [ ] fix: 버그 수정
 - [ ] design: css만 수정
 - [ ] refactor: 동작 변경 없는 수정
@@ -17,8 +17,7 @@
 
 ### 이슈 번호
 
-> 예) https://github.com//fitculator-io/fitculator-web/[이슈번호]
-> https://github.com//fitculator-io/fitculator-web/
+> 예) https://github.com/BoostPerformance/fitculator-med-landing/[이슈번호] > https://github.com/BoostPerformance/fitculator-med-landing/
 
 ### To Reviewers
 
