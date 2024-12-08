@@ -26,6 +26,8 @@ const config: Config = {
         gray: {
           DEFAULT: '#585858',
           1: '#625C5C',
+          2: '#F9F9F9',
+          3: '#6b7280',
         },
         blue: {
           DEFAULT: '#3191FF',
@@ -37,8 +39,10 @@ const config: Config = {
     fontSize: {
       '0.625-500': [' 0.625rem', { fontWeight: 500 }],
       '0.7-700': ['0.7rem', { fontWeight: 700 }],
+      '0.75-400': ['0.75rem', { fontWeight: 400 }],
       '0.75-500': ['0.75rem', { fontWeight: 500 }],
       '0.75-600': ['0.75rem', { fontWeight: 600 }],
+      '0.8-400': [' 0.8rem', { fontWeight: 400 }],
       '0.875-400': [' 0.875rem', { fontWeight: 400 }],
       '0.875-500': [' 0.875rem', { fontWeight: 500 }],
       '0.875-700': [' 0.875rem', { fontWeight: 700 }],

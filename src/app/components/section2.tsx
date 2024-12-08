@@ -4,11 +4,20 @@ export default function Section2() {
   return (
     <div className="py-[20rem] bg-beige flex flex-col gap-[4rem] items-center justify-center sm:py-[6rem] md:py-[6rem] bg-blue-2 bg-blueGradient">
       <div className="flex text-1.875-400 sm:text-1-400 sm:px-[1rem] sm:flex-col sm:items-center">
-        <div className="sm:text-1.125-400">환자는&nbsp;</div>
+        <div className="flex">
+          <div className="sm:text-1.125-400">환자는&nbsp; </div>
+          <div className="relative">
+            <div className="text-1.875-700 sm:text-1.125-700 h-[2rem] sm:h-[1rem]">
+              병원 밖에서도 관리받고,&nbsp;
+            </div>
+            <div className="absolute border-b-[0.5rem] w-full border-blue-1"></div>
+          </div>
+        </div>
+
         <div className="flex">
           <div className="relative">
             <div className="text-1.875-700 sm:text-1.125-700 h-[2rem] sm:h-[1rem]">
-              병원 밖에서도 관리받고, 병원은 신뢰
+              병원은 신뢰
             </div>
             <div className="absolute border-b-[0.5rem] w-full border-blue-1"></div>
           </div>
@@ -16,11 +25,11 @@ export default function Section2() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-[1rem] sm:gap-[0.4rem] items-center sm:px-[1rem]">
+      <div className="grid grid-cols-2 gap-[1rem] sm:gap-[0.4rem] items-center sm:px-[1rem] sm:flex sm:flex-col text-black">
         <div className="text-green flex items-center gap-[1rem] col-span-2 bg-[#E8EFFF] rounded-[1.25rem] py-[3rem] sm:h-[10rem]">
           <div className="w-full flex items-center justify-around sm:px-[1rem]">
             <div>
-              <div className="text-1.5-700 sm:text-1-700 text-black">
+              <div className="text-1.5-700 sm:text-1-700 ">
                 위고비 처방 환자 연계
               </div>
               <div className="text-1.25-600 sm:text-0.875-500 text-gray">
@@ -38,9 +47,9 @@ export default function Section2() {
           </div>
         </div>
 
-        <div className="text-green relative flex flex-col  bg-[#F4EBF6] rounded-[1.25rem] py-[2rem] px-[2rem] w-[26rem] h-[18rem] sm:w-[10rem] sm:h-[8rem] sm:px-[0.8rem] sm:py-[1.2rem] md:w-[24rem]">
-          <div className="relative z-10">
-            <div className="text-1.5-700 sm:text-0.875-700 text-black">
+        <div className="text-green relative flex flex-col  bg-[#F4EBF6] rounded-[1.25rem] py-[2rem] px-[2rem] w-[26rem] h-[18rem] sm:w-full sm:h-[9rem] sm:px-[1rem] sm:py-[1.2rem] sm:justify-center md:w-[24rem] ">
+          <div className="lg:relative z-10">
+            <div className="text-1.5-700 sm:text-0.875-700 ">
               병원 전용 커스터마이징
             </div>
             <div className="text-1.25-600 sm:text-0.75-600 text-gray">
@@ -48,7 +57,7 @@ export default function Section2() {
             </div>
           </div>
           <Image
-            className="absolute right-[2rem] bottom-[2rem] w-[11rem] sm:w-[3rem] sm:right-[0.5rem] sm:bottom-[1.2rem]"
+            className="absolute  right-[2rem] bottom-[2rem] w-[11rem] md:w-[9.3rem] sm:w-[5.5rem]"
             src="/images/Rectangle3.png"
             width={100}
             height={100}
@@ -56,7 +65,7 @@ export default function Section2() {
           />
         </div>
 
-        <div className="text-green relative flex flex-col  bg-[#E6E6FF] rounded-[1.25rem] py-[2rem] px-[2rem] w-[26rem] h-[18rem] sm:w-[10rem] sm:h-[8rem] sm:px-[0.8rem] sm:py-[1.2rem]  md:w-[24rem]">
+        <div className="text-green relative flex flex-col bg-[#E6E6FF] rounded-[1.25rem] py-[2rem] px-[2rem] w-[26rem] h-[18rem] sm:w-full sm:h-[9rem] sm:px-[1rem] sm:py-[1.2rem] sm:justify-center md:w-[24rem]">
           <div className="relative z-10">
             <div className="text-1.5-700 sm:text-0.875-700 text-black">
               비대면 솔루션
@@ -69,7 +78,7 @@ export default function Section2() {
             </div>
           </div>
           <Image
-            className="absolute right-[2rem] bottom-[2rem] w-[11rem] sm:w-[3rem] sm:right-[0.5rem] sm:bottom-[1.2rem]"
+            className="absolute right-[2rem] bottom-[2rem] w-[10rem] md:w-[8rem] sm:w-[5.5rem]"
             src="/images/Rectangle2.png"
             width={100}
             height={100}
