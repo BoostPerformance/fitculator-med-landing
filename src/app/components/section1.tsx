@@ -4,11 +4,9 @@ export default function Section1() {
   return (
     <div className="flex flex-col gap-[2rem] pb-[5rem]">
       <div className="py-[6rem] flex flex-col items-center justify-center gap-[8rem] bg-blue-gradient">
-        <div className="text-1.875-700 sm:text-1.5-700 sm:text-center">
+        <div className="text-2-900 sm:text-1.5-700 sm:text-center">
           환자는 관리받고, 병원은 신뢰받는 <br className="hidden sm:inline" />
-          <span className="hidden sm:inline sm:text-2-900">
-            위고비 관리 파트너
-          </span>
+          <span className=" sm:text-1.5-900">위고비 관리 파트너</span>
         </div>
         <div>
           <Image
