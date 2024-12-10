@@ -4,7 +4,7 @@ export default function Section1() {
   return (
     <div className="flex flex-col gap-[2rem] pb-[5rem]">
       <div className="py-[6rem] flex flex-col items-center justify-center gap-[8rem] bg-blue-gradient">
-        <div className="text-2.5-900 sm:text-1.5-900 sm:text-center">
+        <div className="text-1.875-700 sm:text-1.5-700 sm:text-center">
           환자는 관리받고, 병원은 신뢰받는 <br className="hidden sm:inline" />
           <span className="hidden sm:inline sm:text-2-900">
             위고비 관리 파트너
@@ -23,14 +23,14 @@ export default function Section1() {
 
       <div className="flex flex-col items-center gap-[4rem] ">
         <div className="flex sm:flex-col sm:items-center">
-          <div className="text-black text-1.875-400 sm:text-1.125-400">
+          <div className="text-black  sm:text-1.5-400 text-1.875-400 ">
             위고비 처방 환자관리,&nbsp;
           </div>
           <div className="relative">
-            <div className="text-1.875-700 h-[2rem] sm:text-1.125-700 sm:h-[1rem]">
+            <div className="text-1.875-700 h-[2rem] sm:text-1.5-700 sm:h-[1rem]">
               핏큘레이터와 함께하면 달라집니다.
             </div>
-            <div className="absolute border-b-[0.5rem] w-full border-blue-1"></div>
+            <div className="absolute border-b-[0.5rem] w-full border-blue-1 sm:top-[1.5rem]"></div>
           </div>
         </div>
 

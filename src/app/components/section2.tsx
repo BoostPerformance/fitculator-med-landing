@@ -3,23 +3,23 @@ import Image from 'next/image';
 export default function Section2() {
   return (
     <div className="py-[20rem] bg-beige flex flex-col gap-[4rem] items-center justify-center sm:py-[6rem] md:py-[6rem] bg-blue-2 bg-blueGradient">
-      <div className="flex text-1.875-400 sm:text-1-400 sm:flex-col sm:items-center">
+      <div className="flex text-1.875-400 sm:text-1.5-400 sm:flex-col sm:items-center">
         <div className="flex">
-          <div className="sm:text-1.125-400">환자는&nbsp; </div>
+          <div className="sm:text-1.5-400">환자는&nbsp; </div>
           <div className="relative">
-            <div className="text-1.875-700 sm:text-1.125-700 h-[2rem] sm:h-[1rem]">
+            <div className="text-1.875-700 sm:text-1.5-700 h-[2rem] sm:h-[1rem]">
               병원 밖에서도 관리받고,&nbsp;
             </div>
-            <div className="absolute border-b-[0.5rem] w-full border-blue-1"></div>
+            <div className="absolute border-b-[0.5rem] w-full border-blue-1 sm:top-[1.5rem]"></div>
           </div>
         </div>
 
         <div className="flex">
           <div className="relative">
-            <div className="text-1.875-700 sm:text-1.125-700 h-[2rem] sm:h-[1rem]">
+            <div className="text-1.875-700 sm:text-1.5-700 h-[2rem] sm:h-[1rem]">
               병원은 신뢰
             </div>
-            <div className="absolute border-b-[0.5rem] w-full border-blue-1"></div>
+            <div className="absolute border-b-[0.5rem] w-full border-blue-1 sm:top-[1.5rem]"></div>
           </div>
           <div>를 쌓습니다</div>
         </div>

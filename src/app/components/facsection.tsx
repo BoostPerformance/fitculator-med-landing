@@ -6,7 +6,7 @@ const FaQSection = () => {
     <section className="flex flex-col items-center w-full py-[10rem] h-auto sm:py-[5rem] gap-[3rem]">
       <div className="flex sm:w-[23rem] sm:flex-col sm:gap-[1.75rem] flex-col gap-[5rem] sm:items-center ">
         <div className="text-center">
-          <h2 className="text-2.5-900 mb-[1rem] sm:text-1.75-900 md:text-2-900  sm:text-center ">
+          <h2 className="text-2.5-700 mb-[1rem] sm:text-1.5-700 md:text-2-900  sm:text-center ">
             FAQ <br />더 궁금한 점이 있으신가요?
           </h2>
 
