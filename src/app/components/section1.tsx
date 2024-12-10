@@ -37,9 +37,9 @@ export default function Section1() {
         <div className="flex flex-col items-center gap-[1.5rem]">
           <Image
             className="w-[20rem] z-0 sm:w-[12rem]"
-            src="/images/app-image.png"
-            width={1000}
-            height={1000}
+            src="/svg/app-image.svg"
+            width={2000}
+            height={2000}
             alt="app image"
           />
           <div className="flex flex-col gap-[0.5rem] items-center sm:gap-[1rem]">
