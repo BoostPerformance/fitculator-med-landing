@@ -1,5 +1,3 @@
-import SnsIcons from './snsIcons';
-
 const Footer = () => {
   return (
     <footer className="pt-[4.7rem] pb-[6.8rem] px-[10rem] bg-gray-2 sm:pl-[1.5rem] sm:px-[1rem] sm:pb-[6.5rem] sm:pt-[2.5rem] md:px-[4rem] relative z-0">
@@ -17,7 +15,7 @@ const Footer = () => {
             ©2024 Fitculator. All rights reserved.
           </p>
           <p className="text-gray-3">
-            <a href="/privacy-policy">개인정보 처리방침</a>
+            <a href="/privacy-policy">개인정보처리방침</a>
           </p>
         </div>
       </div>

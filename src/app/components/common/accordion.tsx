@@ -6,7 +6,7 @@ type AccordionItemProps = {
   title?: string;
   content?: ReactNode;
   path?: boolean;
-  svgColor?: string;
+
   gap?: string;
 };
 
@@ -14,7 +14,7 @@ function AccordionItem({
   title,
   content,
   path,
-  svgColor = 'currentColor',
+
   gap,
 }: AccordionItemProps) {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +72,6 @@ type AccordionProps = {
     title?: string;
     content: ReactNode;
     titleFontWeight?: string;
-    svgColor?: string;
   }[];
   gap?: string;
 };
@@ -86,7 +85,6 @@ function Accordion({ items, gap = 'gap-[1.69rem]' }: AccordionProps) {
           key={item.id}
           title={item.title}
           content={item.content}
-          svgColor={item.svgColor}
           gap={gap}
         />
       ))}
